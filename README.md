@@ -1,6 +1,12 @@
-# 🤖 JARVIS AI Assistant
+# 🤖 J.A.R.V.I.S. 2.0 - AI Assistant
 
-A sophisticated AI voice assistant built with Python that combines speech recognition, natural language processing, and automation capabilities. JARVIS can understand voice commands, perform web searches, control applications, play music, and provide conversational AI responses.
+A sophisticated AI voice assistant built with Python that combines speech recognition, natural language processing, and automation capabilities. J.A.R.V.I.S. 2.0 features **universal voice support** that works naturally across multiple languages (English, Hindi, and more) with a single, realistic neural voice.
+
+## 🆕 What's New in 2.0
+- ✨ **Universal Voice**: Single high-quality neural voice that works naturally for all languages
+- 🌍 **Cross-Platform**: Full support for Windows, macOS, and Linux
+- 🎯 **Improved TTS**: Natural, realistic voice synthesis (not robotic)
+- 🔒 **Security**: Removed hardcoded API keys, added env.example template
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![PyQt5](https://img.shields.io/badge/PyQt5-GUI-green.svg)
@@ -11,12 +17,14 @@ A sophisticated AI voice assistant built with Python that combines speech recogn
 
 ### 🎤 Voice Interaction
 - **Real-time Speech Recognition** using Chrome's Web Speech API
-- **Text-to-Speech** with Microsoft Edge TTS
+- **Universal Text-to-Speech** with Microsoft Edge TTS (single voice for all languages)
+- **Natural Voice Quality** - Realistic, non-robotic neural voice
 - **Continuous Listening** mode
 - **Interrupt Capability** to stop mid-response
+- **Multi-language Support** - Responds in the same language you speak
 
 ### 🧠 AI Capabilities
-- **Multi-language Understanding** (responds in English)
+- **Multi-language Understanding** - Detects and responds in your language (English, Hindi, Spanish, etc.)
 - **Real-time Web Search** for up-to-date information
 - **Conversational AI** powered by Groq's language models
 - **Context Awareness** with conversation memory
