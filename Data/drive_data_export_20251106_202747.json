@@ -1,0 +1,15 @@
+{
+  "drive_link": "https://drive.google.com/drive/folders/1RVE5zmBVKngSKo3OUxc9WECOsPKoqymm?usp=sharing",
+  "processed_at": "2025-11-06T20:27:59.595327",
+  "processing_result": {
+    "success": false,
+    "error": "Could not access folder files. The folder may be private or require authentication.",
+    "files_processed": 0,
+    "entries_created": 0,
+    "suggestion": "Please ensure the folder is shared with 'Anyone with the link can view' permission, or install gdown: pip install gdown"
+  },
+  "extracted_data": {
+    "total_entries": 0,
+    "entries": []
+  }
+}

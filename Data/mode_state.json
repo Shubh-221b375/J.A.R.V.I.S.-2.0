@@ -1,0 +1,65 @@
+{
+  "current_mode": "Sales Assistant",
+  "mode_history": [
+    {
+      "old_mode": "Sales Assistant",
+      "new_mode": "General Assistant",
+      "source": "gui",
+      "timestamp": "1762468705.1653407"
+    },
+    {
+      "old_mode": "General Assistant",
+      "new_mode": "Sales Assistant",
+      "source": "gui",
+      "timestamp": "1762509926.7271993"
+    },
+    {
+      "old_mode": "Sales Assistant",
+      "new_mode": "General Assistant",
+      "source": "voice",
+      "timestamp": "1762515611.9943845"
+    },
+    {
+      "old_mode": "General Assistant",
+      "new_mode": "Sales Assistant",
+      "source": "gui",
+      "timestamp": "1762516630.6817343"
+    },
+    {
+      "old_mode": "Sales Assistant",
+      "new_mode": "General Assistant",
+      "source": "gui",
+      "timestamp": "1762517019.7483108"
+    },
+    {
+      "old_mode": "General Assistant",
+      "new_mode": "Sales Assistant",
+      "source": "gui",
+      "timestamp": "1762517057.192433"
+    },
+    {
+      "old_mode": "Sales Assistant",
+      "new_mode": "General Assistant",
+      "source": "gui",
+      "timestamp": "1762517422.9384165"
+    },
+    {
+      "old_mode": "General Assistant",
+      "new_mode": "Sales Assistant",
+      "source": "gui",
+      "timestamp": "1762517504.070203"
+    },
+    {
+      "old_mode": "Sales Assistant",
+      "new_mode": "General Assistant",
+      "source": "gui",
+      "timestamp": "1762517682.1989887"
+    },
+    {
+      "old_mode": "General Assistant",
+      "new_mode": "Sales Assistant",
+      "source": "gui",
+      "timestamp": "1762517823.1303463"
+    }
+  ]
+}

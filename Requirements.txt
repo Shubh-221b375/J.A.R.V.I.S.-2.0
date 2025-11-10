@@ -1,0 +1,81 @@
+# Core dependencies (cross-platform: Windows, macOS, Linux)
+python-dotenv
+groq
+elevenlabs
+appopener==1.7
+pywhatkit
+beautifulsoup4
+pillow
+rich
+requests
+cohere
+googlesearch-python
+selenium
+mtranslate
+pygame
+edge-tts>=6.1.0  # High-quality neural TTS with multilingual support
+PyQt5
+webdriver-manager
+python-docx
+PyPDF2
+openpyxl
+pandas
+opencv-python
+pytesseract
+spotipy
+Flask
+Flask-CORS
+
+# Sales-focused dependencies (optional but recommended for enhanced features)
+sentence-transformers
+numpy
+
+# Email and communication (optional)
+twilio
+
+# Google Sheets integration (optional)
+gspread
+google-auth
+
+# Wake word detection (cross-platform)
+pvporcupine>=2.0.0
+
+# Local STT (offline speech recognition) - cross-platform
+vosk>=0.3.45
+
+# Audio dependencies - platform-specific installation notes:
+# Windows: pip install pyaudio
+# macOS: brew install portaudio && pip install pyaudio
+# Linux: sudo apt-get install portaudio19-dev python3-pyaudio (or equivalent)
+pyaudio>=0.2.11
+
+# Keyboard input (Windows/Linux - optional, may not work on macOS)
+# Note: On macOS, keyboard module has limitations. Consider using pynput as alternative.
+# Install manually on Windows/Linux: pip install keyboard
+keyboard
+
+# Packaging
+pyinstaller>=5.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-mock>=3.10.0
+pytest-cov>=4.0.0
+
+# Logging (using standard library, but can add loguru if needed)
+
+# Platform-specific notes:
+# macOS: 
+#   - Install Chrome/Chromium for speech recognition
+#   - For pyaudio: brew install portaudio first
+#   - Universal voice (en-US-AriaNeural) works well across all languages
+# Windows:
+#   - All dependencies should install normally via pip
+#   - Chrome is required for speech recognition
+#   - Universal voice provides consistent, natural sound for all languages
+#
+# Voice Configuration:
+#   - Default voice: en-US-AriaNeural (premium neural voice, natural and realistic)
+#   - Can be changed in .env file: AssistantVoice=en-US-AriaNeural
+#   - This single voice works well for English, Hindi, and other languages
+#   - Provides consistent, genuine voice quality across all languages
